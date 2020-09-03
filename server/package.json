@@ -1,0 +1,17 @@
+{
+  "name": "file-upload-graphql-server",
+  "version": "1.0.0",
+  "description": "Server for rn-file-upload-graphql RN app ",
+  "main": "index.js",
+  "author": "José Del Valle",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.17.0",
+    "aws-sdk": "^2.746.0",
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  }
+}
